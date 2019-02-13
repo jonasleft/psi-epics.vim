@@ -9,6 +9,7 @@ syntax case ignore
 syntax keyword kRecords ao ai aai aao aSub bi bo calc calcout compress dfanout event contained
 syntax keyword kRecords fanout histogram longin longout mbbi mbbiDirect mbbo mbboDirect contained
 syntax keyword kRecords permissive sel seq state stringin stringout subArray sub waveform contained
+syntax keyword kRecords acalcout contained
 
 syntax keyword kFunctions record field contained
 
@@ -17,7 +18,9 @@ syntax keyword kFields SCAN PINI PHAS EVNT PRIO DISV DISA SDIS PROC DISS contain
 syntax keyword kFields LSET LCNT PACT FLNK INP DTYP LOPR PREC HOPR ASLO contained
 syntax keyword kFields RVAL VAL SIMM SIML SVAL SIOL SIMS OUT DTYP VAL contained
 syntax keyword kFields OVAL RVAL RBV DOL OMSL OIF SIMM contained
-syntax keyword kFields SIML SIOL SIMS IVOA IVOV contained
+syntax keyword kFields SIML SIOL SIMS IVOA IVOV SVL NELM ULIM LLIM contained
+syntax keyword kFields OUTA OUTB OUTC OUTD OUTE OUTF NELM INPA INPB INPC INPD contained
+syntax keyword kFields INAA INBB OOPT FTVL DRVH DRVL HIHI HIGH HSV HHSV contained
 " :help syn-contained
 syntax keyword kTodo TODO contained 
 syntax match epicsComment "\v#.*$" contains=kTodo
